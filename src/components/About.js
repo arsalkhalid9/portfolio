@@ -5,6 +5,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 import profilepic from '../assets/images/profile-pic.jpeg';
+import cv from '../assets/pdf/shahmirCV.pdf';
 export default function About() { 
     return (
         <section className="about" id="about">
@@ -21,11 +22,11 @@ export default function About() {
                                 <h2>About Me</h2>
                             </div>
                             <p>Love coding and scripting in any language.Looking to get more opportunities to advance in my career. Open to any development Jobs.</p> 
-                            <div className="d-flex">
+                            <div className="d-flex justify-content-between">
                                 <div className="about__desc--title"> 
                                     <h2>Contact Details</h2>
                                 </div>
-                                <a href="#" class="button">
+                                <a href={cv} class="button">
                                 <FontAwesomeIcon icon={['fas', 'download']} />
                                     Download Resume
                                 </a>

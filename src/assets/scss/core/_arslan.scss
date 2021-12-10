@@ -58,3 +58,41 @@
     }
 }
 
+.resume {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+    .ourDetails {
+        padding-bottom: rem(25px);
+        margin-bottom: rem(50px);
+        border-bottom: 1px solid #E8E8E8;
+        &__title {
+            font-size: rem(18px);
+            color: #313131;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            span {
+                border-bottom: 3px solid #11ABB0;
+                padding-bottom: rem(6px);
+            }    
+        }
+        h2{
+            font-size: rem(25px);
+            color: #313131;
+            margin-bottom: rem(15px);
+        }
+        i{
+            font-size: rem(16px);
+            margin-bottom: rem(20px);
+        }
+        ul{
+            display: inline-block;
+            margin-left: rem(30px);
+            margin-bottom: rem(20px);
+        }
+        p{
+            margin-bottom: rem(30px);
+        }
+    }  
+}
