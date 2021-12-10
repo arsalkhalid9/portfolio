@@ -45,7 +45,7 @@ export default function Resume() {
                             <h2>Center for advanced research in engineering (C.A.R.E Pvt Ltd)</h2> 
                             <i>UI/UX Designer</i>
                             <ul>
-                                <li> March 2020-Present</li>
+                                <li>March 2020-Present</li>
                             </ul>
                             <p>Presented UX designs and solutions to senior staff, evangelizing for user-centric design decisions. Created site layout and user interface using HTML and CSS practices. Developed user-oriented visuals and features using front-end languages, including HTML,to increase site traffic. Collaborated with in-house web designers to create sleek and innovative UI design.</p>
 
