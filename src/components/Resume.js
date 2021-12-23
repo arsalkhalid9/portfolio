@@ -1,4 +1,5 @@
 import React from 'react'
+import ProgressBar from 'react-bootstrap/ProgressBar'
 export default function Resume() {
     return (
         <section className="resume" id="resume">
@@ -61,7 +62,44 @@ export default function Resume() {
                             <ul>
                                 <li>Reactjs , Nodejs , Mongodb , Firebase , Expressjs , Android Studio , Visual Studio Code , Arduino MEGA , Arduino IDE</li>
                             </ul>
-                            <p>The project in collaboration with NARC (National Agriculture Research Council) was built to provide real-time insight into soil constituents and six primary growth factors that affect crop growth namely PH, moisture,temperature,humidity,CO2 emission and electrical conductivity.</p>   
+                            <p>The project in collaboration with NARC (National Agriculture Research Council) was built to provide real-time insight into soil constituents and six primary growth factors that affect crop growth namely PH, moisture,temperature,humidity,CO2 emission and electrical conductivity.</p>  
+
+                            <h2>Accomplishments</h2> 
+                            <i>A list of accomplishments during my final years at Comsats</i>
+                            <ul>
+                                <li>Winner of Telenor Hackathon 2018 (Second place).</li>
+                                <li>•Winner of Start-up weekend Islamabad 2018 held at Air University (First place).</li>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+                <div className="ourDetails">
+                    <div className="row">
+                        <div className="col-md-3">
+                            <div className="ourDetails__title">
+                                <span>Skills</span>
+                            </div>
+                        </div>
+                        <div className="col-md-9">
+                            <p>The following are my skills with level of expertise</p> 
+                            <div class="mySkills">
+                                <div className="mySkills__progress">
+                                    <h6>Android Studio</h6>
+                                    <ProgressBar animated now={45} />   
+                                </div>
+                                <div className="mySkills__progress">
+                                    <h6>Node.js</h6>
+                                    <ProgressBar animated variant="success" now={30} />
+                                </div>
+                                <div className="mySkills__progress">
+                                    <h6>Html5</h6>
+                                    <ProgressBar animated variant="warning" now={80} />
+                                </div>
+                                <div className="mySkills__progress">
+                                    <h6>Css3</h6>
+                                    <ProgressBar animated variant="danger" now={80} />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

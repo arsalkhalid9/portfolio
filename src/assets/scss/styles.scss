@@ -6,6 +6,9 @@ img {
 
 .bannerImg {
     position: relative;
+    img {
+        width: 100%;
+    }
     .caption {
         position: absolute;
         top: 50%;

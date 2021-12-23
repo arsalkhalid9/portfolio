@@ -1,7 +1,7 @@
 .about{
     background: #2B2B2B;
-    padding-top: 96px;
-    padding-bottom: 66px;
+    padding-top: rem(96px);
+    padding-bottom: rem(66px);
     overflow: hidden;
     &__image{
         position: relative;
@@ -82,17 +82,31 @@
             color: #313131;
             margin-bottom: rem(15px);
         }
-        i{
-            font-size: rem(16px);
-            margin-bottom: rem(20px);
-        }
         ul{
             display: inline-block;
             margin-left: rem(30px);
             margin-bottom: rem(20px);
+            margin-top: rem(20px);
+            li{
+                margin-bottom: rem(20px);
+            }
         }
         p{
             margin-bottom: rem(30px);
         }
+        .mySkills {
+            &__progress {
+                margin-bottom: rem(20px);
+                h6 {
+                    margin-bottom: rem(20px);
+                    text-transform: uppercase;
+                }
+            }
+        }
     }  
+}
+
+.contact {
+    background: #191919;
+    padding: rem(90px) 0;
 }
