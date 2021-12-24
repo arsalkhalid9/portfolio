@@ -89,15 +89,15 @@ export default function Resume() {
                                 </div>
                                 <div className="mySkills__progress">
                                     <h6>Node.js</h6>
-                                    <ProgressBar animated variant="success" now={30} />
+                                    <ProgressBar animated now={30} />
                                 </div>
                                 <div className="mySkills__progress">
                                     <h6>Html5</h6>
-                                    <ProgressBar animated variant="warning" now={80} />
+                                    <ProgressBar animated now={80} />
                                 </div>
                                 <div className="mySkills__progress">
                                     <h6>Css3</h6>
-                                    <ProgressBar animated variant="danger" now={80} />
+                                    <ProgressBar animated now={80} />
                                 </div>
                             </div>
                         </div>

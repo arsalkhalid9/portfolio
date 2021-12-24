@@ -108,5 +108,23 @@
 
 .contact {
     background: #191919;
-    padding: rem(90px) 0;
+    padding: rem(70px) 0;
+    .title {
+        display: flex;
+        align-items: center;
+        margin-bottom: rem(50px);
+        .icon {
+            margin-right: rem(50px);
+            svg {
+                font-size: rem(50px);
+                color: #ebeeee;
+            }
+        }
+    }
+    .control-label {
+        flex: 0 0 80px;
+    }
+    .button-row {
+        margin-top: rem(30px);
+    }
 }

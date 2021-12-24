@@ -3,8 +3,10 @@ form {
 }
 
 .form-group {
-	margin-bottom: 18px;
-	position: relative;
+	margin-bottom: rem(20px);
+	display: flex;
+	align-items: center;
+	// position: relative;
 }
 
 .control-label {
@@ -14,30 +16,35 @@ form {
 	text-align: left;
 	// padding-bottom: rem(8px);
 	margin-bottom: 0px;
-	position: absolute;
+	margin-right: rem(35px);
+	// position: absolute;
 	top: 10px;
 	left: 25px;
 	transition: 0.5s;
 	pointer-events: none;
 	z-index: 10;
-	color: var(--textSecondary);
+	color: #fff;
+	span{
+		color: #11ABB0;
+	}
 }
 
 .form-control {
 	position: relative;
-	height: 64px;
+	height: 50px;
 	font-size: rem(16px);
-	background-color: #f5f5f5;
+	background-color: #373233;
 	outline: none;
 	border: 0;
-	border-radius: 12px;
+	border-radius: 0;
 	border:2px solid transparent;
 	opacity: 1;
 	transition: all 0.2s;
 	touch-action: manipulation;
-	padding: 12px 25px;
+	padding: 18px 20px;
 	font-weight: 500;
-	padding-top: rem(30px);
+	// padding-top: rem(30px);
+	width: 65%;
 	@media screen and (max-width: 767px) {
 		font-size: rem(14px);
 	}
@@ -46,15 +53,15 @@ form {
 		box-shadow: none;
 	}
 	&::placeholder {
-		opacity: 1;
+		opacity: 1 !important;
 		color: var(--textSecondary) !important;
 	}
 	&:focus {
 		outline: none;
 		box-shadow: none;
 		// border-color: $primary;
-		color: var(--textPrimary);
-		background-color: #fcfcfc;
+		color: #fff;
+  	    background-color: #11ABB0;
 		border: 2px solid #171716
 		// padding-top: 14px;
 		// padding-bottom: 10px;
@@ -173,14 +180,14 @@ textarea {
 		position: relative;
 		height: rem(116px);
 		font-size: rem(16px);
-		background-color: #f5f5f5;
+		background-color: #373233;
 		outline: none;
 		border: 0;
-		border-radius: 12px;
+		border-radius: 0;
 		opacity: 1;
 		transition: all 0.2s;
 		touch-action: manipulation;
-		padding: rem(32px) rem(24px);
+		padding: rem(18px) rem(20px);
 		font-weight: 500;
 		@media screen and (max-width: 767px) {
 			font-size: rem(14px);
@@ -197,8 +204,8 @@ textarea {
 			outline: none;
 			box-shadow: none;
 			// border-color: $primary;
-			color: var(--textPrimary);
-			background-color: #f5f5f5;
+			color: #fff;
+			background-color: #11ABB0;
 			// padding-top: 14px;
 			// padding-bottom: 10px;
 		}
