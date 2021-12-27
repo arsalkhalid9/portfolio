@@ -14,45 +14,40 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
-import 'react-sticky-header/styles.css';
-import StickyHeader from 'react-sticky-header';
+// import 'react-sticky-header/styles.css';
+// import StickyHeader from 'react-sticky-header';
 
 
 function App() {
   return (
     <>
     <div className="App">
-		<StickyHeader
-			header={
-				<header>
-					<div className="container">
-						<nav>
-							<a className="logo" href="#">
-								<img src={logo} alt="logo" />
-							</a>
-							<ul>
-								<li>
-									<a href="#">Home</a>
-								</li>
-								<li>
-									<a href="#about">About</a>
-								</li>
-								<li>
-									<a href="#resume">Resume</a>
-								</li>
-								<li>
-									<a href="#">Gallery</a>
-								</li>
-								<li>
-									<a href="#">Contact</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-				</header>
-			}
-		>	
-		</StickyHeader>	
+		<header>
+			<div className="container">
+                <nav>
+                    <a className="logo" href="#">
+                        <img src={logo} alt="logo" />
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#resume">Resume</a>
+                        </li>
+                        <li>
+                            <a href="#">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+			</div>
+		</header>
 		<div className="bannerImg">
 			<img src={banner} alt="header-bg" className="img-fluid"/>
 			<div className="caption">
@@ -76,7 +71,7 @@ function App() {
 				</li>
 				</ul>
 			</div>
-		</div>
+		</div>	
 		<About />
 		<Resume />
 		<Contact />

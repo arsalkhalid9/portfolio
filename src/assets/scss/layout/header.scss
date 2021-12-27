@@ -1,14 +1,14 @@
 header {
-    // padding-top: rem(16px);
-    // padding-bottom: rem(16px);
-    // position: fixed;
-    // left: 0;
-    // top: 0;
-    // width: 100%;
-    // z-index: 1;
-    // &.sticky {
-    //     background: rgba(0,0,0,.3);
-    // }
+    padding-top: rem(16px);
+    padding-bottom: rem(16px);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    &.sticky {
+        background: rgba(0,0,0,.3);
+    }
     nav {
         display: flex;
         align-items: center;
