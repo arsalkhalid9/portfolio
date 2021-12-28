@@ -2,7 +2,7 @@ import React from 'react'
 import ProgressBar from 'react-bootstrap/ProgressBar'
 export default function Resume() {
     return (
-        <section className="resume" id="resume">
+        <section className="Resume" id="resume">
             <div className="container">
                 <div className="ourDetails">
                     <div className="row">
@@ -82,7 +82,7 @@ export default function Resume() {
                         </div>
                         <div className="col-md-9">
                             <p>The following are my skills with level of expertise</p> 
-                            <div class="mySkills">
+                            <div className="mySkills">
                                 <div className="mySkills__progress">
                                     <h6>Android Studio</h6>
                                     <ProgressBar animated now={45} />   

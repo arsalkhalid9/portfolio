@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 export default function Contact() {
     return (
-     <section id="contact" className="contact">
+     <section id="contact" className="Contact">
         <div className="container"> 
             <div className="title">
                 <div className="icon">

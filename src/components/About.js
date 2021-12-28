@@ -1,32 +1,32 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { far } from '@fortawesome/free-regular-svg-icons'
+// import { fab } from '@fortawesome/free-brands-svg-icons'
+// import { fas } from '@fortawesome/free-solid-svg-icons'
+// import { far } from '@fortawesome/free-regular-svg-icons'
 import profilepic from '../assets/images/profile-pic.jpeg';
 import cv from '../assets/pdf/shahmirCV.pdf';
 export default function About() { 
     return (
-        <section className="about" id="about">
+        <section className="About" id="about">
             <div className="container">
                 <div className="row">
                     <div className="col-md-3">
-                        <div className="about__image">
+                        <div className="About__image">
                             <img src={profilepic} alt="profile-pic"/>
                         </div>
                     </div>
                     <div className="col-md-9">
-                        <div className="about__desc">
-                            <div className="about__desc--title"> 
+                        <div className="About__desc">
+                            <div className="About__desc--title"> 
                                 <h2>About Me</h2>
                             </div>
                             <p>Love coding and scripting in any language.Looking to get more opportunities to advance in my career. Open to any development Jobs.</p> 
                             <div className="d-flex justify-content-between">
-                                <div className="about__desc--title"> 
+                                <div className="About__desc--title"> 
                                     <h2>Contact Details</h2>
                                 </div>
-                                <a href={cv} class="button">
+                                <a href={cv} className="button">
                                 <FontAwesomeIcon icon={['fas', 'download']} />
                                     Download Resume
                                 </a>
