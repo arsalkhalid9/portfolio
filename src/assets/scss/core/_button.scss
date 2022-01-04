@@ -102,8 +102,10 @@
     border-radius: 8px;
     @media screen and (max-width: 767px) {
         font-size: rem(14px);
-        padding-left: rem(20px);
-        padding-right: rem(20px);
+        padding: rem(10px) rem(20px);
+        height: 40px;
+        margin-bottom: rem(25px);
+        
     }
     &:disabled {
         color: #fdefed !important;

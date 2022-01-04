@@ -1,10 +1,10 @@
 import React ,{useEffect , useState} from "react";
 // import * as React  from 'react';
 import logo from './assets/images/my-logo.png';
-import banner from './assets/images/header-bg.jpg';
 import About from './components/About'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
+import Home from './components/Home'
 import './App.css';
 import "./assets/scss/styles.scss";
 import Main from './components/Main'
@@ -23,7 +23,7 @@ function App() {
 	useEffect(()=>{
 		window.addEventListener('scroll',()=>{
 			setScroll(window.pageYOffset);
-			if (scroll > 150) {
+			if (scroll > 100) {
 				setSticky(true)
 			}else{
 				setSticky(false)
@@ -38,10 +38,9 @@ function App() {
 	window.addEventListener('scroll', ()=>  {
 		sections.forEach(section => {	
 			let sectionTop = section.offsetTop;
-			let sectionHeight = section.clientHeight;
+			// let sectionHeight = section.clientHeight;
 			if(window.pageYOffset >= sectionTop){
 				current = section.getAttribute('id');
-				console.log(current);
 			}	
 		})
 		items.forEach( li => {
@@ -55,42 +54,39 @@ function App() {
     <>
     <div className="App">
 		<header className={`${sticky ? "sticky":''}`}>
-		<div className="container">
-			<nav>
-				<a className="logo" href="#">
-					<img src={logo} alt="logo" />
-				</a>
-				<ul>
-					<li>
-						<a href="#">Home</a>
-					</li>
-					<li className="about">
-						<a href="#about">About</a>
-					</li>
-					<li className="resume">
-						<a href="#resume">Resume</a>
-					</li>
-					{/* <li>
-						<a href="#">Gallery</a>
-					</li> */}
-					<li className="contact">
-						<a href="#contact">Contact</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+			<div className="container">
+				<nav>
+					<a className="logo" href="#">
+						<img src={logo} alt="logo" />
+					</a>
+					<ul>
+						<li className="home active">
+							<a href="#home">Home</a>
+						</li>
+						<li className="about">
+							<a href="#about">About</a>
+						</li>
+						<li className="resume">
+							<a href="#resume">Resume</a>
+						</li>
+						<li className="contact">
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
     	
-  <div className="bannerImg">
-			<img src={banner} alt="header-bg" className="img-fluid"/>
-			<div className="caption">
-				<h1>I'm Arsal Khalid.</h1>
-				<p>I'm a LAHORE based UI/UX frontend <span>Web Developer</span>. A motivated Software developer having in-depth knowledge of languages and development tools, seeking to ﬁnd the opportunity to work in a fun, challenging and growth-oriented organization that encourages in learning new and necessary skills so that mutual benefit can be attained.</p>
-				<ul className="social">
+  		<Home />
+		<About />
+		<Resume />
+		<Contact />
+		<footer>
+			<ul>
 				<li>
 					<a href="https://www.facebook.com/arsalkhalid99/">
 						<FontAwesomeIcon icon={['fab', 'facebook-f']} />
-					</a>
+					</a>	
 				</li>
 				<li>
 					<a href="https://www.linkedin.com/in/arsal-khalid-780424157/">
@@ -102,13 +98,8 @@ function App() {
 						<FontAwesomeIcon icon={['fab', 'instagram']} />
 					</a>
 				</li>
-				</ul>
-			</div>
-		</div>
-		<About />
-		<Resume />
-		<Contact />
-		
+			</ul>
+		</footer>
     </div>
     </>
   );

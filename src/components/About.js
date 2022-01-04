@@ -11,12 +11,12 @@ export default function About() {
         <section className="About" id="about">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-3 col-sm-6">
                         <div className="About__image">
                             <img src={profilepic} alt="profile-pic"/>
                         </div>
                     </div>
-                    <div className="col-md-9">
+                    <div className="col-md-9 col-sm-6">
                         <div className="About__desc">
                             <div className="About__desc--title"> 
                                 <h2>About Me</h2>
@@ -26,7 +26,7 @@ export default function About() {
                                 <div className="About__desc--title"> 
                                     <h2>Contact Details</h2>
                                 </div>
-                                <a href={cv} className="button">
+                                <a href={cv} className="btn btn-primary">
                                 <FontAwesomeIcon icon={['fas', 'download']} />
                                     Download Resume
                                 </a>

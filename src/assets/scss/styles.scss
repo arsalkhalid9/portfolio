@@ -3,51 +3,77 @@
 img {
     max-width: 100%;
 }
-
-.bannerImg {
-    position: relative;
-    img {
-        width: 100%;
-    }
-    .caption {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        h1{
-            font-size: rem(90px);
-            color: #fff;
-            letter-spacing: -2px;
-            margin-bottom: rem(18px);
+.Home {
+    .bannerImg {
+        position: relative;
+        height: 100vh;
+        @media screen and (max-width: 991px) {
+            height: 360px;
         }
-        p{
-            font-size: rem(18px);
-            color: #A8A8A8;
-            margin-bottom: rem(50px);
-            span{
-                color: #fff;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        .caption {
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 96%;
+            padding: rem(10px);
+            @media screen and (max-width: 991px) {
+                top: 60%;
             }
-        }
-        ul{
-            list-style: none;
-            font-size: rem(30px);
-            li{
-                display: inline-block;
-                margin: 0 rem(15px);
-                &:hover{
-                    transition: all 0.5s ease;
-                    transform: rotate(360deg);
-                    opacity: .75;
+            h1{
+                font-size: rem(90px);
+                color: #fff;
+                letter-spacing: -2px;
+                margin-bottom: rem(18px);
+                @media screen and (max-width: 1200px) {
+                    font-size: rem(60px);
                 }
-                a{
+                @media screen and (max-width: 575px) {
+                    font-size: rem(50px);
+                }
+            }
+            p{
+                font-size: rem(18px);
+                color: #A8A8A8;
+                margin-bottom: rem(50px);
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+                @media screen and (max-width: 767px) {
+                    margin-bottom: rem(30px);
+                }
+                @media screen and (max-width: 575px) {
+                    margin-bottom: rem(20px);
+                }
+                span{
                     color: #fff;
+                }
+            }
+            ul{
+                list-style: none;
+                font-size: rem(30px);
+                li{
+                    display: inline-block;
+                    margin: 0 rem(15px);
+                    &:hover{
+                        transition: all 0.5s ease;
+                        transform: rotate(360deg);
+                        opacity: .75;
+                    }
+                    a{
+                        color: #fff;
+                    }
                 }
             }
         }
     }
 }
-// section {
-//     height: 100vh;
-//     width: 100%;
-// }
+.progress-bar {
+    background-color: var(--secondary);
+}
+

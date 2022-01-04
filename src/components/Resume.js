@@ -6,12 +6,12 @@ export default function Resume() {
             <div className="container">
                 <div className="ourDetails">
                     <div className="row">
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-sm-6">
                             <div className="ourDetails__title">
                                 <span>Education</span>
                             </div>
                         </div>
-                        <div className="col-md-9">
+                        <div className="col-md-9 col-sm-6">
                             <h2>Comsats Islamabad</h2> 
                             <i>Bachelors in Computer Science</i>
                             <ul>
@@ -37,12 +37,12 @@ export default function Resume() {
                 </div>
                 <div className="ourDetails">
                     <div className="row">
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-sm-6">
                             <div className="ourDetails__title">
                                 <span>Work</span>
                             </div>
                         </div>
-                        <div className="col-md-9">
+                        <div className="col-md-9 col-sm-6">
                             <h2>Center for advanced research in engineering (C.A.R.E Pvt Ltd)</h2> 
                             <i>UI/UX Designer</i>
                             <ul>
@@ -68,19 +68,19 @@ export default function Resume() {
                             <i>A list of accomplishments during my final years at Comsats</i>
                             <ul>
                                 <li>Winner of Telenor Hackathon 2018 (Second place).</li>
-                                <li>•Winner of Start-up weekend Islamabad 2018 held at Air University (First place).</li>
+                                <li>Winner of Start-up weekend Islamabad 2018 held at Air University (First place).</li>
                             </ul> 
                         </div>
                     </div>
                 </div>
                 <div className="ourDetails">
                     <div className="row">
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-sm-6">
                             <div className="ourDetails__title">
                                 <span>Skills</span>
                             </div>
                         </div>
-                        <div className="col-md-9">
+                        <div className="col-md-9 col-sm-6">
                             <p>The following are my skills with level of expertise</p> 
                             <div className="mySkills">
                                 <div className="mySkills__progress">
@@ -93,7 +93,7 @@ export default function Resume() {
                                 </div>
                                 <div className="mySkills__progress">
                                     <h6>Html5</h6>
-                                    <ProgressBar animated now={80} />
+                                    <ProgressBar variant="#11ABB0" animated now={80} />
                                 </div>
                                 <div className="mySkills__progress">
                                     <h6>Css3</h6>

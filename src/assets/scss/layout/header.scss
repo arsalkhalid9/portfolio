@@ -26,6 +26,9 @@ header {
             &:hover {
                 opacity: .75;
             }
+            @media screen and (max-width: 991px) {
+                max-width: 80px;
+            }
         }
         ul {
             display: flex;
@@ -36,12 +39,20 @@ header {
             li {
                 &:not(:last-child) {
                     margin-right: rem(25px);
+                    @media screen and (max-width: 414px) {
+                        margin-right: rem(15px);
+                    }
                 }
                 &::marker {
                     content: none;
                 }
                 a {
                     color: #ffffff;
+                    text-transform: uppercase;
+                    &:hover {
+                    color: #ffffff;
+                    text-decoration: none;
+                    }
                 }
                 &.active {
                     a {
