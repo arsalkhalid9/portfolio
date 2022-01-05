@@ -33,14 +33,15 @@ export default function About() {
                                     <h2>Contact Details</h2>
                                 </div>
                                 <a href={cv} className="btn btn-primary">
-                                <FontAwesomeIcon icon={['fas', 'download']} />
-                                    Download Resume
+                                    <span>
+                                        <FontAwesomeIcon icon={['fas', 'download']} />
+                                        Download Resume
+                                    </span>
                                 </a>
                             </div>
                             <ul>
                                 <li>Arsal Khalid</li>
-                                <li>H#114 Noor Street Habibullah Road,LHR</li>
-                                <li>Lahore</li>
+                                <li>H#114 Noor Street Habibullah Road, Lahore</li>
                                 <li>+92-305-4704034</li>
                                 <li>arsalkhalid99@gmail.com</li>
                             </ul>   

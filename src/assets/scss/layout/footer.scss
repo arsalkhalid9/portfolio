@@ -1,5 +1,5 @@
 footer {
-    padding: rem(50px) 0;
+    padding: rem(20px) 0;
     ul{
         list-style: none;
         font-size: rem(30px);
@@ -22,5 +22,15 @@ footer {
                 }
             }
         }
+    }
+    .styles_scroll-to-top__2A70v {
+        border-radius: 100%;
+        background-color: #F06000;
+        width: 50px;
+        height: 50px;
+        animation: mover 1s infinite  alternate;
+    }
+    svg {
+        fill: #fff;
     }
 }

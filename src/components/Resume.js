@@ -6,63 +6,59 @@ export default function Resume() {
             <div className="container">
                 <div className="ourDetails">
                     <div className="row">
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-3">
                             <div className="ourDetails__title">
                                 <span>Education</span>
                             </div>
                         </div>
-                        <div className="col-md-9 col-sm-6">
-                            <h2>Comsats Islamabad</h2> 
-                            <i>Bachelors in Computer Science</i>
+                        <div className="col-md-9">
+                            <h2>Virtual University</h2> 
+                            <i>Bachelors in Information Technology</i>
                             <ul>
-                                <li>January 2020</li>
+                                <li>2016-2020</li>
                             </ul>
-                            <p>Graduated with 2.88 CGPA....no idea how</p>
+                            <p>Graduated with 3.25 CGPA</p>
 
-                            <h2>Beaconhouse Margalla Campus Islamabad</h2> 
-                            <i>A-levels (engineering)</i>
+                            <h2>M.A.O College</h2> 
+                            <i>Intermediate (ICS)</i>
                             <ul>
-                                <li>2014-2016</li>
+                                <li>2013-2014</li>
                             </ul>
-                            <p>74% Equivalence</p>
+                            <p>Second Division</p>
                              
-                            <h2>Beaconhouse Margalla Campus Islamabad</h2> 
-                            <i>O-levels (Computer Science)</i>
+                            <h2>Govt MC Higher Secondary School Allama Iqbal Road Faisalabad</h2> 
+                            <i>Matriculation (Science Group)</i>
                             <ul>
-                                <li>2012-2014</li>
+                                <li>2012-2013</li>
                             </ul>
-                            <p>78% Equivalence</p>   
+                            <p>Second Division</p>   
                         </div>
                     </div>
                 </div>
                 <div className="ourDetails">
                     <div className="row">
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-3">
                             <div className="ourDetails__title">
                                 <span>Work</span>
                             </div>
                         </div>
-                        <div className="col-md-9 col-sm-6">
-                            <h2>Center for advanced research in engineering (C.A.R.E Pvt Ltd)</h2> 
+                        <div className="col-md-9">
+                            <h2>Logics Drive (Pvt Ltd)</h2> 
                             <i>UI/UX Designer</i>
                             <ul>
-                                <li>March 2020-Present</li>
+                                <li>2017-Present</li>
                             </ul>
                             <p>Presented UX designs and solutions to senior staff, evangelizing for user-centric design decisions. Created site layout and user interface using HTML and CSS practices. Developed user-oriented visuals and features using front-end languages, including HTML,to increase site traffic. Collaborated with in-house web designers to create sleek and innovative UI design.</p>
-
-                            <h2>C.E.N.T.E.C.H (A Subsidiary of Nescom Pakistan</h2> 
-                            <i>Ubuntu Developer</i>
-                            <ul>
-                                <li> July 2019-August 2019</li>
-                            </ul>
-                            <p>Learning various Ubuntu commands to customize the Ubuntu installer application(ubiquity) to perform various tasks automatically at install time such as installing multiple applications, creating multiple directories and folders, changing file permissions and various update packages. Also created Post install scripts to install/execute pre written scripts by other members of team and had them run at end of Ubuntu installation via preseeding.</p>
-                             
+         
                             <h2>Final Year Project</h2> 
-                            <i>Real-Time IOT Soil Monitoring System</i>
+                            <i>Trip Karigar (Web Application)</i>
                             <ul>
-                                <li>Reactjs , Nodejs , Mongodb , Firebase , Expressjs , Android Studio , Visual Studio Code , Arduino MEGA , Arduino IDE</li>
+                                <li>Sublime Text Editor, Notepad ++ or PHP Storm, Xampp, WampServer etc. Core PHP and HTML</li>
                             </ul>
-                            <p>The project in collaboration with NARC (National Agriculture Research Council) was built to provide real-time insight into soil constituents and six primary growth factors that affect crop growth namely PH, moisture,temperature,humidity,CO2 emission and electrical conductivity.</p>  
+                            <p>Develop a tourism website in which Admin will create new trip/tour plans i.e. 1 day trip to 7 days tour in different northern areas of Pakistan. Admin will also respond to the custom trip/tour queries by the users i.e. Queries regarding quote, itinerary, road map and services which will be provided. <br/>
+                                Users can view trips which are already created by the Admin. User can book trip/tour, Users can fiter categorically i.e. 1 day trip, 3 day Tour etc. or by location wise i.e. Naran Tours, Hunza Tours etc. <br/>
+                                Users can get a Quote for their Custom trip/tour by filling a form in which they will give all required information i.e. Departure Place, Arrival Place, Number of Days, Nimber of Person, Services required etc. 
+                            </p>  
 
                             <h2>Accomplishments</h2> 
                             <i>A list of accomplishments during my final years at Comsats</i>
@@ -75,29 +71,57 @@ export default function Resume() {
                 </div>
                 <div className="ourDetails">
                     <div className="row">
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-3">
                             <div className="ourDetails__title">
                                 <span>Skills</span>
                             </div>
                         </div>
-                        <div className="col-md-9 col-sm-6">
-                            <p>The following are my skills with level of expertise</p> 
+                        <div className="col-md-9">
+                            <p>The following are my skills with level of expertise</p>
                             <div className="mySkills">
                                 <div className="mySkills__progress">
-                                    <h6>Android Studio</h6>
-                                    <ProgressBar animated now={45} />   
-                                </div>
-                                <div className="mySkills__progress">
-                                    <h6>Node.js</h6>
-                                    <ProgressBar animated now={30} />
-                                </div>
-                                <div className="mySkills__progress">
                                     <h6>Html5</h6>
-                                    <ProgressBar variant="#11ABB0" animated now={80} />
+                                    <ProgressBar animated now={80} />  
                                 </div>
                                 <div className="mySkills__progress">
                                     <h6>Css3</h6>
                                     <ProgressBar animated now={80} />
+                                </div>
+                                <div className="mySkills__progress">
+                                    <h6>Bootstrap</h6>
+                                    <ProgressBar animated now={80} />
+                                </div>
+                                <div className="mySkills__progress">
+                                    <h6>Jquery</h6>
+                                    <ProgressBar animated now={60} />
+                                </div>
+                                <div className="mySkills__progress">
+                                    <h6>Web Accessibility 508</h6>
+                                    <ProgressBar animated now={60} />
+                                </div>
+                                <div className="mySkills__progress">
+                                    <h6>Sass and Scss</h6>
+                                    <ProgressBar animated now={60} />
+                                </div>
+                                <div className="mySkills__progress">
+                                    <h6>W3c Validation</h6>
+                                    <ProgressBar animated now={60} />
+                                </div>
+                                <div className="mySkills__progress">
+                                    <h6>Transitions / Animation</h6>
+                                    <ProgressBar animated now={60} />
+                                </div>
+                                <div className="mySkills__progress">
+                                    <h6>Adobe Photoshop</h6>
+                                    <ProgressBar animated now={60} />
+                                </div>
+                                <div className="mySkills__progress">
+                                    <h6>Vue.js</h6>
+                                    <ProgressBar animated now={60} />
+                                </div>
+                                <div className="mySkills__progress">
+                                    <h6>EmailTemp</h6>
+                                    <ProgressBar animated now={60} />
                                 </div>
                             </div>
                         </div>

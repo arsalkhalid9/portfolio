@@ -14,6 +14,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
 
@@ -23,7 +24,7 @@ function App() {
 	useEffect(()=>{
 		window.addEventListener('scroll',()=>{
 			setScroll(window.pageYOffset);
-			if (scroll > 100) {
+			if (scroll > 120) {
 				setSticky(true)
 			}else{
 				setSticky(false)
@@ -38,8 +39,8 @@ function App() {
 	window.addEventListener('scroll', ()=>  {
 		sections.forEach(section => {	
 			let sectionTop = section.offsetTop;
-			// let sectionHeight = section.clientHeight;
-			if(window.pageYOffset >= sectionTop){
+			let sectionHeight = section.clientHeight;
+			if(window.pageYOffset >= sectionTop - (sectionHeight)/5){
 				current = section.getAttribute('id');
 			}	
 		})
@@ -99,6 +100,7 @@ function App() {
 					</a>
 				</li>
 			</ul>
+			<ScrollToTop smooth />
 		</footer>
     </div>
     </>

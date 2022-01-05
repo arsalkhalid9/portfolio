@@ -40,9 +40,9 @@ export default function Contact() {
                         <h6>Address and Phone</h6>
                         <ul className= "list-unstyled">
                             <li>Arsal Khalid</li>
-                            <li>G-13/2 St 44 house 21</li>
-                            <li>Lahore</li>
-                            <li>+92-333-5994574</li>
+                            <li>H#114 Noor Street Habibullah Road, Lahore</li>
+                            <li>+92-305-4704034</li>
+                            <li>arsalkhalid99@gmail.com</li>
                         </ul>
                     </div>
                 </div>

@@ -155,11 +155,11 @@
         color: #ffffff;
         border: 2px solid #11ABB0;
         min-width: rem(149px);
-        &:hover {
-            background: #3d4145;
-            color: #fff;
-            border: 2px solid #3d4145;
-        }
+        // &:hover {
+        //     background: #3d4145;
+        //     color: #fff;
+        //     border: 2px solid #3d4145;
+        // }
         &:not(:disabled):active {
             background: #11ABB0;
             color: #ffffff;
