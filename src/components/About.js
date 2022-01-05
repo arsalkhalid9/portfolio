@@ -21,12 +21,13 @@ export default function About() {
                             <div className="About__desc--title"> 
                                 <h2>About Me</h2>
                             </div>
-                            <p>Building stable and maintainable codebases using bootstrap and jquery.
-                                 Implementing a mobile-first approach to existing websites.
-                                 Collaborating with designers to ensure designs were efficient and
-                                technically sound.
-                                 Working directly with clients to develop technical solutions
-                                 Conducting testing to identify bugs and UI improvements.</p> 
+                                <p>Building stable and maintainable codebases using bootstrap and jquery.
+                                    Implementing a mobile-first approach to existing websites.
+                                    Collaborating with designers to ensure designs were efficient and
+                                    technically sound.
+                                    Working directly with clients to develop technical solutions
+                                    Conducting testing to identify bugs and UI improvements.
+                                </p> 
                             <div className="d-flex justify-content-between">
                                 <div className="About__desc--title"> 
                                     <h2>Contact Details</h2>
