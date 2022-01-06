@@ -31,45 +31,6 @@
             color: #7A7A7A;
             margin-bottom: rem(30px);
         }
-        a {
-            // position: relative;
-            span {
-                position: relative;
-                z-index: 2;
-            }
-            &:after {
-                position: absolute;
-                content: "";
-                top: 0;
-                left: 0;
-                width: 0;
-                height: 100%;
-                background: #3d4145;
-                transition: .5s ease all;
-            }
-            &:before {
-                position: absolute;
-                content: "";
-                top: 0;
-                right: 0;
-                width: 0;
-                height: 100%;
-                background: #3d4145;
-                transition: .5s ease all;
-            }
-            &:hover {
-                border: 2px solid #3d4145;
-                &:after {
-                    width: 50%;
-                }
-                &:before {
-                    width: 50%;
-                }
-            }
-            svg{
-                margin-right: rem(15px);
-            }
-        }
         ul{
             list-style: none;
             li{

@@ -64,7 +64,7 @@ export default function Resume() {
                             <i>A list of accomplishments during my final years at Comsats</i>
                             <ul>
                                 <li>Winner of Telenor Hackathon 2018 (Second place).</li>
-                                <li>Winner of Start-up weekend Islamabad 2018 held at Air University (First place).</li>
+                                <li>Winner of Start-up weekend Lahore 2018 held at Virtual University (First place).</li>
                             </ul> 
                         </div>
                     </div>
@@ -81,19 +81,23 @@ export default function Resume() {
                             <div className="mySkills">
                                 <div className="mySkills__progress">
                                     <h6>Html5</h6>
-                                    <ProgressBar animated now={80} />  
+                                    <ProgressBar animated now={90} />  
                                 </div>
                                 <div className="mySkills__progress">
                                     <h6>Css3</h6>
-                                    <ProgressBar animated now={80} />
+                                    <ProgressBar animated now={90} />
                                 </div>
                                 <div className="mySkills__progress">
                                     <h6>Bootstrap</h6>
-                                    <ProgressBar animated now={80} />
+                                    <ProgressBar animated now={90} />
                                 </div>
                                 <div className="mySkills__progress">
                                     <h6>Jquery</h6>
                                     <ProgressBar animated now={60} />
+                                </div>
+                                <div className="mySkills__progress">
+                                    <h6>JavaScript</h6>
+                                    <ProgressBar animated now={50} />
                                 </div>
                                 <div className="mySkills__progress">
                                     <h6>Web Accessibility 508</h6>
@@ -101,27 +105,31 @@ export default function Resume() {
                                 </div>
                                 <div className="mySkills__progress">
                                     <h6>Sass and Scss</h6>
-                                    <ProgressBar animated now={60} />
+                                    <ProgressBar animated now={85} />
                                 </div>
                                 <div className="mySkills__progress">
                                     <h6>W3c Validation</h6>
-                                    <ProgressBar animated now={60} />
+                                    <ProgressBar animated now={100} />
                                 </div>
                                 <div className="mySkills__progress">
                                     <h6>Transitions / Animation</h6>
-                                    <ProgressBar animated now={60} />
+                                    <ProgressBar animated now={80} />
                                 </div>
                                 <div className="mySkills__progress">
                                     <h6>Adobe Photoshop</h6>
-                                    <ProgressBar animated now={60} />
+                                    <ProgressBar animated now={80} />
                                 </div>
                                 <div className="mySkills__progress">
                                     <h6>Vue.js</h6>
                                     <ProgressBar animated now={60} />
                                 </div>
                                 <div className="mySkills__progress">
+                                    <h6>React js</h6>
+                                    <ProgressBar animated now={50} />
+                                </div>
+                                <div className="mySkills__progress">
                                     <h6>EmailTemp</h6>
-                                    <ProgressBar animated now={60} />
+                                    <ProgressBar animated now={90} />
                                 </div>
                             </div>
                         </div>

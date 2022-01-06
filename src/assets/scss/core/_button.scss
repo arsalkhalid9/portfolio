@@ -153,17 +153,57 @@
     .btn-primary:active {
         background: #11ABB0;
         color: #ffffff;
-        border: 2px solid #11ABB0;
+        border: 2px solid transparent;
         min-width: rem(149px);
-        // &:hover {
-        //     background: #3d4145;
-        //     color: #fff;
-        //     border: 2px solid #3d4145;
-        // }
+        span {
+            position: relative;
+            z-index: 2;
+        }
+        &:after {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background: #3d4145;
+            transition: .5s ease all;
+        }
+        &:before {
+            position: absolute;
+            content: "";
+            top: 0;
+            right: 0;
+            width: 0;
+            height: 100%;
+            background: #3d4145;
+            transition: .5s ease all;
+        }
+        &:hover {
+            // background: #3d4145;
+            // color: #fff;
+            border: 2px solid #3d4145;
+            &:focus {
+                border: 2px solid #3d4145;
+            }
+            &:not(:disabled):active {
+                border: 2px solid #3d4145;
+            }
+            &:after {
+                width: 50%;
+            }
+            &:before {
+                width: 50%;
+            }
+        }
+        svg {
+            margin-right: rem(15px);
+        }
         &:not(:disabled):active {
             background: #11ABB0;
             color: #ffffff;
-            border: 2px solid #11ABB0;   
+            border: 2px solid transparent;
+            border-color: transparent; 
         }
     }
     &.btn-secondary {

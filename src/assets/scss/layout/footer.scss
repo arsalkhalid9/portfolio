@@ -29,6 +29,9 @@ footer {
         width: 50px;
         height: 50px;
         animation: mover 1s infinite  alternate;
+        &:hover {
+            opacity: .7;
+        }
     }
     svg {
         fill: #fff;
